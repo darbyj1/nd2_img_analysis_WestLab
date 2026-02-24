@@ -12,6 +12,10 @@ import cv2
 from nd2 import nd2_to_tiff
 import tifffile as tiff
 import re
+import os
+import sys
+
+sys.path.append(os.path.dirname(__file__))
 
 
 #!!!!CHANGE THESE FOUR!!!!
